@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background: #dddddd;
+    font-family: 'Arial';
 }
 
 .title {
@@ -18,22 +19,6 @@ section.body-section {
     background: #dddddd;
 }
 
-.message {
-    margin: 15px 0 0 15px;
-}
-
-.message-title {
-    color: #333333;
-}
-
-.message-container {
-    background: white;
-    display: inline-block;
-    padding: 8px;
-    margin-top: 8px;
-    border-radius: 8px;
-}
-
 .control-section {
     position: fixed;
     bottom: 0;
@@ -42,6 +27,7 @@ section.body-section {
     border-top: solid black 2px;
 }
 
-.sent-message {
+.message-input {
     width: 100%;
+    resize: none;
 }

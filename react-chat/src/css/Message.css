@@ -1,0 +1,19 @@
+.message {
+    margin: 15px 0 0 15px;
+}
+
+.message-title {
+    color: #333333;
+}
+
+.message-container {
+    background: white;
+    display: inline-block;
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: 8px;
+}
+
+.message-text {
+    margin: 0;
+}
